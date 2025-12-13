@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 def fizzbuzz(n):
     result = []

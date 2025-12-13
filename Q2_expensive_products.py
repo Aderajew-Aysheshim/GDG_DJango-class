@@ -1,3 +1,4 @@
+__week__ = "week2"
 def get_expensive_products(prices):
     return [p for p in prices if p > 100]
 

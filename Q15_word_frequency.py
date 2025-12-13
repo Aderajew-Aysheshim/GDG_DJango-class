@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 def word_frequency(sentence):
     words = sentence.split()

@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 
 def sum_numbers_from_file(filename="numbers.txt"):

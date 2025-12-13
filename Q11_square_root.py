@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 def integer_sqrt(x):
     if x < 2:

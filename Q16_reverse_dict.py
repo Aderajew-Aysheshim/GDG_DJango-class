@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 def reverse_dict(d):
     out = {}

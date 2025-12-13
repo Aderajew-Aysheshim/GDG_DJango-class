@@ -1,3 +1,4 @@
+__week__ = "week2"
 def get_grade(student_grades, student_name):
     try:
         return student_grades[student_name]

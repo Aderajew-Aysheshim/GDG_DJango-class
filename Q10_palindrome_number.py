@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 def is_palindrome(x):
     s = str(x)

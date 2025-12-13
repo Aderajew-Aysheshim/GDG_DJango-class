@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 valid_sales = []
 

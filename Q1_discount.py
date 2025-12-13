@@ -1,3 +1,4 @@
+__week__ = "week2"
 
 items = int(input("Enter the number of items you want to buy: "))
 def discount(items):
