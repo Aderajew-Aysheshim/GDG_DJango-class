@@ -1,0 +1,9 @@
+
+items = int(input("Enter the number of items you want to buy: "))
+def discount(items):
+ if items > 3:
+    print("Discount applied")
+ else:
+    print("No discount")
+    
+    discount(items)
