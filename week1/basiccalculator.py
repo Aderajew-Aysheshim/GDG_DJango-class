@@ -14,7 +14,7 @@ def divide(a, b):
     return a / b
 def power(a, b):
     return a ** b
-def modulus(a, b):
+def modulus(a, b): 
     return a % b
 def floor_divide(a, b):
     if b == 0:
@@ -75,7 +75,21 @@ while True:
         print("Result:", divide(num1, num2))
     elif choice == '5':
         print("Result:", power(num1, num2))
-
+        
+    elif  choice=='6':
+      print("Result:", modulus(num1, num2))
+    elif choice=='7':
+        print("Result:", floor_divide(num1, num2))
+        
+    num3 = input("Enter the number: ")
+    if choice=='8':
+        print("Result:", square_root(float(num3)))
+    elif choice=='9':
+        print("Result:", cube_root(float(num3)))
+    elif choice=='10':
+        print("Result:", percentage(num1, num2))
+    elif choice=='11':
+        print("Result:", factorial(int(num3)))        
     else:
         print("Invalid choice")
         
